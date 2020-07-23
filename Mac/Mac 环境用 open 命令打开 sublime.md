@@ -3,10 +3,13 @@ Mac环境用open命令打开sublime
 
 1 基础命令 open -a Sublime\ Text {文件名}
 man open;
-...
-	-a application
+```
+$ man open
+    ...
+    -a application
          Specifies the application to use for opening the file
-...
+    ...
+```
 
 2 修改 sublime 应用程序名称
 
