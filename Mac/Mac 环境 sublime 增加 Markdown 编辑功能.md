@@ -43,7 +43,7 @@
 */
 "enable_mathjax": true,
 /* 
- 如果需要看代码高亮效果这个改为true，但是生成的html code很乱,如果你需要转出干净的html，发布网站上有自定的高亮模板，直接改为false
+ 如果需要看代码高亮效果这个改为LIveReloadtrue，但是生成的html code很乱,如果你需要转出干净的html，发布网站上有自定的高亮模板，直接改为false
 */
 "enable_highlight": false,
 > 
@@ -58,6 +58,13 @@
 ]
 >
 > 快捷键="alt+m" 打开默认浏览器
+
+启用 LiveReload
+
+> cmd + shift + p 
+> LiveReload: Enable/disable plug-ins
+> 
+> 选择 Enable: Simple Reload with delay (400ms)
 
 #### 3 效果
 
