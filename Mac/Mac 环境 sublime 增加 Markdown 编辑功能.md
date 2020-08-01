@@ -29,7 +29,7 @@
 > 如下：
 >
 {
-    "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+   "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
     "line_numbers": true
 }
 >
@@ -62,3 +62,11 @@
 #### 3 效果
 
 暂时无图
+
+
+#### 4 遇到问题-重装 package
+
+关闭 sublime 之后 到 cd /Users/{yourname}/Library/Application Support/Sublime Text 3/Installed Packages 删除对应 package 文件，再重装一般即可解决。
+
+例：安装过程中遇到"Error loading syntax file "Packages/Markdown/Markdown.sublime-syntax": Unable to read Packages/Markdown/Markdown.sublime-syntax"
+则重装Markdown Extended.sublime-package，问题解决。
