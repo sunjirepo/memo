@@ -27,26 +27,34 @@
 > 
 > 需要在 MarkdownGFMSettings-User 和 Markdown(Standard)Setting-User 和 MultiMarkdownSetting-User 三个配置文件中增加 “Monokai Extended” 的配置。
 > 如下：
->
+
+```js
 {
    "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
     "line_numbers": true
 }
->
+```
 
 > Markdwon Preview
 > 
 > MarkdowPreviewSetting-User 配置如下：
-> 
+
+```js
+{ 
 /*
 需要数学公式的这个改为true
 */
 "enable_mathjax": true,
 /* 
- 如果需要看代码高亮效果这个改为true，但是生成的html code很乱,如果你需要转出干净的html，发布网站上有自定的高亮模板，直接改为false
+ 如果需要看代码高亮效果这个改为LIveReloadtrue，但是生成的html code很乱,如果你需要转出干净的html，发布网站上有自定的高亮模板，直接改为false
 */
 "enable_highlight": false,
-> 
+/*
+ 配合 LiveReload 自动刷新页面
+*/
+"enable_autoreload": true,
+}
+```
 
 额外增加 Preview 预览快捷键的配置：
 左上角 -> Sublime Text -> Preferences -> Key Bindings
@@ -58,6 +66,13 @@
 ]
 >
 > 快捷键="alt+m" 打开默认浏览器
+
+启用 LiveReload
+
+> cmd + shift + p 
+> LiveReload: Enable/disable plug-ins
+> 
+> 选择 Enable: Simple Reload with delay (400ms)
 
 #### 3 效果
 
