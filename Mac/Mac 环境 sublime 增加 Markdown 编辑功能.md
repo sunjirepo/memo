@@ -74,6 +74,26 @@
 > 
 > 选择 Enable: Simple Reload with delay (400ms)
 
+> 如何一直生效呢？目前每次都需要启动 LiveReload, 
+> 
+> 左上角 -> Sublime Text -> Preferences -> Package Setting -> LiveReload -> Settings - User 添加如下信息
+```
+{
+    "enabled_plugins": [
+        "SimpleReloadPlugin",
+        "SimpleRefresh"
+    ]
+}
+```
+> 
+> sublime 丢失焦点即保存
+> 
+> preferences->设置-用户
+```
+"save_on_focus_lost": true,
+```
+> 
+
 #### 3 效果
 
 暂时无图
