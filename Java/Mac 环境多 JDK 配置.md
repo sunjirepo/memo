@@ -11,8 +11,10 @@ root# brew cask install adoptopenjdk/openjdk/adoptopenjdk13
 利用 jenv 管理 jdk 并设置 环境 jdk
 
 ```shell
+brew install jenv
 ```
 
+[参考](https://codinglife.tech/2019/09/manage-multiple-java-versions-on-mac/)
 
 检验 jdk 是否生效
 
