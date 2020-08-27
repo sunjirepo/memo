@@ -37,11 +37,19 @@ Intellij 提供配置，Run/Debug Configration
 
 Debugger mode=Attach to remote JVM, IP Port 和远程服务器对应。
 
-启动 debug 后 Console 打印 
+检测 remote debug 是否可用
 ```shell
+# 启动 debug 后 Console 打印 
 Connected to the target VM, address: '{ip}:7015', transport: 'socket'
 ``` 
-表示连接成功。
+
+Tips: 用 telnet 命令测试端口联通性
+```shell
+root@***# telnet 129.211.66.182 7015
+Trying 129.211.66.182...
+Connected to 129.211.66.182.
+Escape character is '^]'.
+```
 
 #### 3 遇到问题 & 解决记录
 
