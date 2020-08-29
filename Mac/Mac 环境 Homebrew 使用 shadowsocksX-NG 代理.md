@@ -24,6 +24,11 @@ alias proxy='export all_proxy=socks5://127.0.0.1:1086'
 alias unproxy='unset all_proxy'
 ```
 
+当前 shell 生效
+```shell
+exec zsh -l
+```
+
 这里要注意，127.0.0.1:1086 这个是你shadowsocksX-NG中的偏好设置-高级-本地Socks5监听地址，一定要设置一样的端口号。
 
 测试 proxy 是否成功
