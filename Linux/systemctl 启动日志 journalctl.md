@@ -1,0 +1,34 @@
+### systemctl 启动日志 journalctl
+
+#### 查看 journalctl 占用空间
+
+```shell
+journalctl --disk-usage 
+
+# Archived and active journals take up 1.3G on disk.
+```
+
+#### 缩小日志
+
+jouralctl 日志存储位置
+
+/var/log/journal
+
+由于是压缩文件方式，所以暂时无法对某个 systemctl 管理的 service 清理日志。
+
+```shell
+[root@izwz90mzzcnt7k848ob24qz f0f31005fb5a436d88e3c6cbf54e25aa]# pwd
+/var/log/journal/f0f31005fb5a436d88e3c6cbf54e25aa
+
+[root@izwz90mzzcnt7k848ob24qz f0f31005fb5a436d88e3c6cbf54e25aa]# ls
+system@c473f94932be4385b8122ed300f252fc-0000000000000001-00059b5334d61b5f.journal  system@c473f94932be4385b8122ed300f252fc-000000000005a619-0005ae2a1c29d5d9.journal
+system@c473f94932be4385b8122ed300f252fc-000000000000a2f2-00059db783edc169.journal  system@c473f94932be4385b8122ed300f252fc-0000000000081f37-0005ae48b814b84d.journal
+system@c473f94932be4385b8122ed300f252fc-0000000000013b7f-0005a01bd03ffbc0.journal  system@c473f94932be4385b8122ed300f252fc-00000000000aa173-0005ae68394ab347.journal
+system@c473f94932be4385b8122ed300f252fc-000000000001e5ad-0005a280404b364f.journal  system@c473f94932be4385b8122ed300f252fc-00000000000d2409-0005ae87a6078af3.journal
+system@c473f94932be4385b8122ed300f252fc-000000000002501b-0005a4e49024f01c.journal  system@c473f94932be4385b8122ed300f252fc-00000000000f64c1-0005ae8f02e0d920.journal
+system@c473f94932be4385b8122ed300f252fc-000000000002b76c-0005a748fc9af5cd.journal  system@c473f94932be4385b8122ed300f252fc-00000000001190f8-0005ae902f806933.journal
+system@c473f94932be4385b8122ed300f252fc-00000000000331e1-0005a9ad48f29da3.journal  system@c473f94932be4385b8122ed300f252fc-000000000013bd38-0005ae915c82fb23.journal
+system@c473f94932be4385b8122ed300f252fc-0000000000038c0f-0005ac11b8fc234e.journal  system.journal
+```
+
+据说 默认 保留一个月的日志。
