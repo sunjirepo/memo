@@ -5,4 +5,6 @@
     - [github 对应在线学习地址](https://learngitbranching.js.org/?locale=zh_CN)
 2. 算法教程，循序渐进，特别有意思 传送门 [fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
 
-3. 
+3. JavaScript 20年，官方中文翻译[javascript 20年](https://github.com/doodlewind/jshistory-cn)
+
+4. 
