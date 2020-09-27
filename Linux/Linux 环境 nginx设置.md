@@ -1,4 +1,4 @@
-### Linux 环境设置 nginx
+### Linux 环境 nginx设置
 
 
 

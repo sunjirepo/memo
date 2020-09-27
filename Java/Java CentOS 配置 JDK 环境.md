@@ -1,4 +1,4 @@
-### CentOS 配置 JDK 环境
+### Java CentOS 配置 JDK 环境
 
 1 利用 yum 工具安装
 

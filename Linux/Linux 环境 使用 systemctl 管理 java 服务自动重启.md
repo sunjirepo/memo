@@ -1,4 +1,4 @@
-### 使用 systemctl 管理 java 服务自动重启
+### Linux 环境 使用 systemctl 管理 java 服务自动重启
 
 1. 目标 
 
@@ -16,6 +16,8 @@ jar 目录: /home/root/litemall/deploy/litemall/litemall.jar
 > 3.2 添加自启链接
 > 3.3 启动
 > 3.4 检查
+> 3.5 查询系统服务
+> 3.6 重启和重载服务
 
 - 3.1 systemctl service 脚本
 
@@ -54,6 +56,7 @@ ln -s /lib/systemd/system/litemall.service /etc/systemd/system/multi-user.target
 
 systemctl daemon-reload
 systemctl enable litemall.service
+# systemctl disable litemall.service 关闭开机自启
 ```
 
 - 3.3 启动脚本
@@ -78,5 +81,14 @@ systemctl status litemall
            └─5279 /usr/bin/java -jar /home/root/deploy/litemall/litemall.jar
 ```
 
+- 3.5 查询服务
+```shell
+$ systemctl list-unit --type=service
+```
 
-
+- 3.6 重启和重载服务
+```shell
+$ systemctl restart litemall.service
+# 无论服务是否启动，都可以执行 restart
+$ systemctl reload litemall.service
+```

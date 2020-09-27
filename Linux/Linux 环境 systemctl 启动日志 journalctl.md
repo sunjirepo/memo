@@ -1,4 +1,4 @@
-### systemctl 启动日志 journalctl
+### Linux 环境 systemctl 启动日志 journalctl
 
 #### 查看 journalctl 占用空间
 

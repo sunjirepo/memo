@@ -1,4 +1,4 @@
-### Mac 环境多 JDK 配置
+### Java  Mac 环境多 JDK 配置
 
 参考：
 

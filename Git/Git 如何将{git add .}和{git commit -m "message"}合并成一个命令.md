@@ -1,4 +1,4 @@
-# 如何将{git add .}和{git commit -m "message"}合并成一个命令
+# Git 如何将{git add .}和{git commit -m "message"}合并成一个命令
 
 
 1.  一般提交方式
