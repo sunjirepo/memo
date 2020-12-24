@@ -4,4 +4,6 @@
 
 Alt+F3 = Command+Control+g
 
-2. 
+2. 大小写转换 Command + k + l / Command + k + u
+
+
