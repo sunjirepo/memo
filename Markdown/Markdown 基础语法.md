@@ -1,5 +1,9 @@
 # Markdown 基础语法示例
 
+#### 图片
+
+![图片](https://d33wubrfki0l68.cloudfront.net/2585cf9757d316b9030cf36d6a4e6b8ea7eedf5a/1509f/images/docs/user-guide/logging/logging-with-node-agent.png)
+
 #### 脚注
 
 hello[^1]

@@ -13,7 +13,7 @@
 - control + e 跳到本行的行尾 
 > 熟练度：新手
 > e=end ?
-- control + w / d 删除单词，w=删除光标前面的单词 d=删除光标后面的单词 
+- control + w / d 删除单词，w=删除光标前面的单词 d=删除光标后面的字符 
 > 熟练度：新手
 > w=word d=delete ?
 - control + k / u 删除光标前后内容，k=删除光标后面的文字 u=删除光标前面的文字 
@@ -57,6 +57,6 @@
 从其中一篇[熟悉 Bash 快捷键来提高效率][1]中提到，
 > Bash快捷键其实是GNU Readline快捷键， GNU Readline Library是一个来接受用户输入的GNU软件包。
 
-说明其实很多都用了底层的 GNU Readline Lib，包括OSX/Linux 所以特别好。
+说明其实很多都用了底层的 GNU Readline Lib，包括OSX/Linux 所以特别好，一次学习终身受益。
 
 [1]: https://harttle.land/2015/11/09/bash-shortcuts.html
