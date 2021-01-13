@@ -5,6 +5,13 @@
 hello[^1]
 [^1]: hi
 
+#### 链接注脚
+
+[Google][1]
+> 然后在文档的结尾为变量赋值（网址） 
+> 
+> [1]: http://www.google.com/
+
 #### 分割线
 
 ---
@@ -51,6 +58,7 @@ ___
 #### 引用 格式 （已掌握）
 
 > 引用的内容123
+> 
 > 引用的内容456
 
 ##### 引用 格式高阶
@@ -74,3 +82,4 @@ String s = new String('hello world');
 System.out.println(s);
 ```
 
+[1]: http://www.google.com/
