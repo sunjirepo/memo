@@ -84,6 +84,13 @@ ___
 2. 列表内容
 3. 列表内容
 
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ol>
+
 #### 引用 格式 （已掌握）
 
 > 引用的内容123
