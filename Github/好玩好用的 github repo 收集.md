@@ -13,3 +13,6 @@
 4. MyBatis-Plus #工具 #代码生成 [mybatis-plus 工具增强](https://github.com/baomidou/mybatis-plus.git)
 
 5. 自学计算机科学，#计算机基础 #长期主义 [TeachYourselfCS](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%BF%99%E4%BB%BD%E6%8C%87%E5%BC%95%E6%98%AF%E8%B0%81%E7%BF%BB%E8%AF%91%E7%9A%84)
+
+6. Google Chrome 插件例子 [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
+ 
