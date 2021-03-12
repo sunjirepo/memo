@@ -10,9 +10,16 @@
 
 3. JavaScript 20年，官方中文翻译 #编程语言 [javascript 20年](https://github.com/doodlewind/jshistory-cn)
 
-4. MyBatis-Plus #工具 #代码生成 [mybatis-plus 工具增强](https://github.com/baomidou/mybatis-plus.git)
+4. MyBatis-Plus #工具 #代码生成 #长期主义 [mybatis-plus 工具增强](https://github.com/baomidou/mybatis-plus.git)
 
-5. 自学计算机科学，#计算机基础 #长期主义 [TeachYourselfCS](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%BF%99%E4%BB%BD%E6%8C%87%E5%BC%95%E6%98%AF%E8%B0%81%E7%BF%BB%E8%AF%91%E7%9A%84)
+5. 自学计算机科学，#计算机基础 #长期主义 [TeachYourselfCS](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md)
+    - 《深入理解计算机系统》 和 《数据密集型应用系统设计》
+    - [计算机系统][1] [分布式系统][2]
+    - 
 
 6. Google Chrome 插件例子 [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
  
+
+
+[1]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84
+[2]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F
