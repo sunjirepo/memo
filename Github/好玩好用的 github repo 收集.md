@@ -15,7 +15,7 @@
 5. 自学计算机科学，#计算机基础 #长期主义 [TeachYourselfCS](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md)
     - 《深入理解计算机系统》 和 《数据密集型应用系统设计》
     - [计算机系统][1] [分布式系统][2]
-    - 
+    - 《深入理解计算机系统》 开始看了。
 
 6. Google Chrome 插件例子 [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
  
