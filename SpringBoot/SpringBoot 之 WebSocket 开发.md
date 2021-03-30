@@ -6,3 +6,5 @@
 ## 利用 SpringBoot 提供的STOMP（WebSocket子协议）搭建服务
 
 完全体样例代码，
+
+~~失败的情况,非常奇怪~~
