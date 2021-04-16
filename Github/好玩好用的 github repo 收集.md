@@ -12,6 +12,8 @@
 
 4. MyBatis-Plus #工具 #代码生成 #长期主义 [mybatis-plus 工具增强](https://github.com/baomidou/mybatis-plus.git)
 
+41. Laravel-admin #工具 #代码生成 [laravel-admin 从前到后 10min 生成](https://github.com/z-song/laravel-admin)
+
 5. 自学计算机科学，#计算机基础 #长期主义 [TeachYourselfCS](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md)
     - 《深入理解计算机系统》 和 《数据密集型应用系统设计》
     - [计算机系统][1] [分布式系统][2]
