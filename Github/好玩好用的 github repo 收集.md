@@ -21,10 +21,14 @@
 
 6. Google Chrome 插件例子 [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
  
-7. JavaCore 核心 基本知识点，[JavaCoreSprout][3]
+7. JavaCore 核心 基本知识点 #Java [JavaCoreSprout][3]
     维护时间是2年前的，一个大佬写的，也想做一些这样的事情，更多的是为自己。
     都是文档形式，具体代码自己手敲，蛮好，果然是大佬，文档里面有源码，可以copy形式-md，也可以copy内容-code
+
+8. 文档规范 readme [standard-readme][4]
+
 
 [1]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84
 [2]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F
 [3]: https://github.com/crossoverJie/JCSprout
+[4]: https://github.com/RichardLitt/standard-readme
