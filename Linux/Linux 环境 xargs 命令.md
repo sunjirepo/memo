@@ -1,8 +1,6 @@
 # Linux 环境 xargs 命令
 
-参考：  
-[阮一峰的xargs解释][1]
-
+参考：[阮一峰的xargs解释][1]
 
 ## xargs命令的作用，是将标准输入转为命令行参数。
 
@@ -38,4 +36,4 @@ $ xargs find -name
 ```
 
 
-[1]:[https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html]
+[1]: https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html
