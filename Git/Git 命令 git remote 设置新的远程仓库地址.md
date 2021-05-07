@@ -23,3 +23,8 @@ git remote -v
 # origin  <url>/algorithm-admin-server.git (push)
 
 ```
+
+git remote add origin git@github.com:sunjirepo/common-parent.git
+
+
+git remote add origin git@git.corp.hrtps.com:java-common/common-cloud-server.git
