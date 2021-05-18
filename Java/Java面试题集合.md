@@ -14,9 +14,15 @@ Java面试题2 - 单例
     Spring 框架中有没有单例的实践？ 平时是如何用的？ 为什么需要单例，单例有什么作用？ 
     加试：Spring如何实现单例？如果有两个类名称一样的@Service会不会有问题？
 
+Java面试题3 - 集合
+
+    HashMap都用过，get和put是基本方法，HashMap是如何构建的，保证get/put效率
+    加试：为什么会出现Hash冲突，如何避免？或者说 hash 冲突怎么解决的。
+
+
 Java面试题3 - 并发
 
-    Concurrent HashMap 用到过吗？ 什么业务场景用到？ 合理性。
+    ConcurrentHashMap 用到过吗？ 什么业务场景用到？ 合理性。
 
 Java面试题7 - 数据库 索引/B+树/锁
 
