@@ -1,4 +1,4 @@
-# Java面试题集合
+# Java 面试题集合
 
 
 Java面试题1 - 幂等，锁，并发
@@ -69,7 +69,7 @@ public class ConsultResult {
      * 错误码
      */
     private String errorCode;
-    
+
     public boolean getIsEnable() {
         return isEnable;
     }
