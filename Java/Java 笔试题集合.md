@@ -9,9 +9,6 @@
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 
 ### Java 笔试题2
 
@@ -40,6 +37,7 @@ public Map<Boolean, Integer> getOddEvenMap(Integer[] array) {
 }
 ```
 
+<br/>
 <br/>
 <br/>
 
