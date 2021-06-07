@@ -2,9 +2,10 @@
 
 实际工作遇到利用状态机业务，抽取核心代码，学习理解状态机。
 
-![StateMachine 图][0]
+## 分析各种状态机角色
 
-从上图分析各种角色
+StateMachine包内类图：
+![StateMachine 图][0]
 
 1. StateMachineFactory 状态机工厂
 2. StateMachine 状态机
@@ -15,6 +16,14 @@
 7. TransactionContext 状态机操作上下文
 8. BaseStateMachineKey 上下文数据Key
 9. HcStateMachineInit AiStateMachineInit SpringBoot初始化
+
+
+### 边缘类：
+
+HcStateMachineInit 和 AiStateMachineInit
+
+### 状态机核心类：
+
 
 
 
