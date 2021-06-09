@@ -167,7 +167,25 @@ fire 方法实现：从外部获取事件 Event 和 当前状态（存在 Transa
 
 ### 状态机的具体操作类：
 
+以 CreateHandler 为例
+```java
+@Slf4j
+@Service
+public class CreateHandler extends AbstractHandler {
+  
+  @Override
+  @Transactional(rollbackFor = Exception.class)
+  // ... 做创建 CreateHandler 自己的业务
+  public ServicePlan handle(TransactionContext context, StateMachine stateMachine, ServicePlan servicePlan) {
+    servicePlan = new ServicePlan();
+    // ...
+    serviceMainService.insertServicePlan(servicePlan);
+    return servicePlan;
+  }
+}
+```
 
+CreateHandler#handle 方法实现业务逻辑，和状态机相关的操作封装在 AbstractHandler 类里面。
 
 
 
