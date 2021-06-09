@@ -185,9 +185,54 @@ public class CreateHandler extends AbstractHandler {
 }
 ```
 
-CreateHandler#handle 方法实现业务逻辑，和状态机相关的操作封装在 AbstractHandler 类里面。
+CreateHandler#handle 方法实现业务逻辑，和状态机相关的操作封装在 AbstractHandler#doHandler 方法里。
+相关代码片段
+```java
+public class StateMachine<S, E, H extends Handler> {
+  public ServicePlan fire(E event, TransactionContext context) throws Exception {
+    //...
+    return handle.doHandle(context, this, (ServicePlanEventEnum) event);
+  }
+}
+```
 
+```java
+@Service
+public abstract class AbstractHandler implements Handler {
+  @Override
+  public ServicePlan doHandle(TransactionContext context, StateMachine stateMachine, 
+    ServicePlanEventEnum servicePlanEventEnum) throws Exception {
 
+    ServicePlan servicePlan = null;
+    if (!context.getData(BaseStateMachineKey.CURRENT_STATE).equals(ServicePlanStatusEnum.zero)) {
+      servicePlan = (ServicePlan) context.getData(BaseStateMachineKey.SERVICE_PLAN);
+      Long operateId = (Long) context.getData(BaseStateMachineKey.OPERATE_ID);
+      if (servicePlan == null) {
+        throw new HttpGlobalError("服务没传");
+      }
+      /** 获取handler后把当前状态改回来 */
+      if (ServicePlanStatusEnum.unknown.equals(context.getData(BaseStateMachineKey.CURRENT_STATE))) {
+        context.setData(BaseStateMachineKey.CURRENT_STATE, servicePlan.getServiceStatus());
+      }
+      servicePlan.setLastModifier(operateId);
+      servicePlan.setServiceStatus((ServicePlanStatusEnum) context.getData(BaseStateMachineKey.NEXT_STATE));
+    }
+
+    servicePlan = handle(context, stateMachine, servicePlan);
+    if (servicePlan == null) {
+      return null;
+    }
+
+    return servicePlan;
+  }
+}
+```
+
+---  
+
+目前为止，状态机初始化和状态机流转已完成，初始化是 StateMachineFactory#register 存放多个状态机实体，流转是从 StateMachine#fire 调用 AbstractHandler#doHandle 到调用子类 CreateHandler#handle 实现具体业务内容。
+
+最后给一个状态机调用的例子，
 
 
 [0]: https://raw.githubusercontent.com/sunjirepo/memo/master/temp/StateMachine.png
