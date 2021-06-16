@@ -29,7 +29,9 @@
 
 9. JVM 系统工具 - Alibaba开源的Java诊断工具 [Arthas][5]
 
-10. 胡进的memo 很容易理解 [bushi memo][6]
+10. Jim（老胡）的memo 很容易理解 [bushi memo][6]
+
+11. 找工作自学进大厂，厉害的 [coding-interview-university 中文版][7]
 
 [1]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84
 [2]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F
@@ -37,4 +39,5 @@
 [4]: https://github.com/RichardLitt/standard-readme
 [5]: https://github.com/alibaba/arthas/blob/master/README_CN.md
 [6]: https://github.com/bugushi/memo
+[7]: https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md
 
