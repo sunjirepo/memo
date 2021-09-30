@@ -17,4 +17,6 @@ $ vim /etc/hosts
 
 ```
 
+结果, 启动时间 -5s
+
 [参考文档](https://blog.csdn.net/yzh_1346983557/article/details/117626167)
