@@ -41,3 +41,5 @@
 [6]: https://github.com/bugushi/memo
 [7]: https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md
 
+12. 上海交通大学 计算机系的学生写的 如何在大学计算机系的学习中自救 [CS自救指北](https://github.com/brucechin/SurviveSJTUManual)
+    - 也许以后能给孩子看。

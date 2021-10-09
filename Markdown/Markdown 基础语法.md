@@ -73,6 +73,10 @@ ___
 | 单元格 | 单元格 | 单元格 |
 | 单 | 单 | 单 |
 
+| 单元格内换行 | 单元格字体加粗 | 单元格代码 | 单元格链接 |
+| ---- | ---- | ---- | ---- |
+| 木头人<br/>魔头人 | normal **blod** | `{"firstName": "John","lastName": "Smith","age": 25}` | [google](https://www.google.com) |
+
 #### link url 超链接 （已掌握）
 
 [超链接名](超链接地址 "超链接title")
