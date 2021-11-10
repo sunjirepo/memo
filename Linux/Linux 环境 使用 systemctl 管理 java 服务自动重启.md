@@ -48,6 +48,31 @@ PrivateTmp=true
 WantedBy=multi-user.target
 ```
 
+zhuben.service
+```shell
+[Unit]
+Description=zhuben backend java service
+After=local-fs.target
+After=network.target
+After=mysqld.service
+
+[Service]
+Type=forking
+ExecStart=/bin/sh /www/server/springboot/script/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
+
+关键是: Type=forking，如果Type=simple 则不能启动 start.sh， 直接随main进程退出而退出了。
+
+关联的启动脚本 start.sh
+```shell
+#!/bin/sh
+sudo -u springboot nohup /usr/bin/java -jar -Dspring.profiles.active=prod /www/server/springboot/sidejob-0.0.1-SNAPSHOT.jar >> /www/server/springboot/sidejob.log 2>&1 &
+```
+
 - 3.2 添加自启链接
 
 创建软链接
