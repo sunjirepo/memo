@@ -33,6 +33,14 @@
 
 11. 找工作自学进大厂，厉害的 [coding-interview-university 中文版][7]
 
+12. 上海交通大学 计算机系的学生写的 如何在大学计算机系的学习中自救 [CS自救指北](https://github.com/brucechin/SurviveSJTUManual)
+    - 也许以后能给孩子看。
+    
+13. Side Project 指南，包括点子/实现/推广/变现 [sideproject 指南][8]
+
+
+附录：
+
 [1]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84
 [2]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F
 [3]: https://github.com/crossoverJie/JCSprout
@@ -40,6 +48,5 @@
 [5]: https://github.com/alibaba/arthas/blob/master/README_CN.md
 [6]: https://github.com/bugushi/memo
 [7]: https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md
+[8]: https://github.com/timqian/sideproject.guide
 
-12. 上海交通大学 计算机系的学生写的 如何在大学计算机系的学习中自救 [CS自救指北](https://github.com/brucechin/SurviveSJTUManual)
-    - 也许以后能给孩子看。
