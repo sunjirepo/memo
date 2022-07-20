@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T10:08:09.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="ZN3PFy64sUvjxxqkL3lY" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T10:27:58.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36" etag="dtco8GtRgQ3REi2vJgDl" version="20.0.3" type="github">
   <diagram id="pn7PbPkftmn3cvq20Zgi" name="Page-1">
-    <mxGraphModel dx="1237" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PuxvLNvJ-SmBApYNemu--2" value="daily_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="160" y="70" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--2">
           <mxGeometry x="45" y="170" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="70" width="20" height="300" as="geometry" />
+          <mxGeometry x="60" y="70" width="20" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--4" value="daily_progress" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="340" y="70" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--4">
           <mxGeometry x="44" y="100" width="10" height="60" as="geometry" />
@@ -32,13 +32,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="235" y="160" width="10" height="50" as="geometry" />
+          <mxGeometry x="205" y="160" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--8" value="log progress" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--7" parent="1" source="PuxvLNvJ-SmBApYNemu--3">
           <mxGeometry x="0.0406" y="10" relative="1" as="geometry">
-            <mxPoint x="165" y="160" as="sourcePoint" />
+            <mxPoint x="135" y="160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="180" y="160" />
+              <mxPoint x="150" y="160" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -50,26 +50,26 @@
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--9" value="打卡结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="PuxvLNvJ-SmBApYNemu--7" parent="1" target="PuxvLNvJ-SmBApYNemu--3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="236" as="targetPoint" />
+            <mxPoint x="135" y="236" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--17" value="同步进度（同步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--16" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="220" y="170" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--21" value="查询当天所有任务" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;exitX=0.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--20" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="419" y="240" as="sourcePoint" />
+            <mxPoint x="389" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" source="PuxvLNvJ-SmBApYNemu--20" parent="1" target="PuxvLNvJ-SmBApYNemu--4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="418.5" y="297" as="targetPoint" />
+            <mxPoint x="388.5" y="297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--27" value="task_streak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="70" width="100" height="320" as="geometry" />
+          <mxGeometry x="550" y="70" width="100" height="320" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--27">
           <mxGeometry x="45" y="260" width="10" height="50" as="geometry" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--28" value="progress_streak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="740" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="710" y="70" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--28">
           <mxGeometry x="45.5" y="240" width="10" height="50" as="geometry" />
@@ -104,22 +104,22 @@
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--30" value="同步进度（可异步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--29" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="239.5" y="330" as="sourcePoint" />
+            <mxPoint x="209.5" y="330" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="460" y="330" />
+              <mxPoint x="430" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--37" value="同步进度（可异步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="239.5" y="310" as="sourcePoint" />
+            <mxPoint x="209.5" y="310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="620.5" y="310" />
+              <mxPoint x="590.5" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--39" value="打卡类任务" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="60" y="20" width="80" height="26" as="geometry" />
+          <mxGeometry x="30" y="20" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="PuxvLNvJ-SmBApYNemu--40" value="daily_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="480" width="100" height="300" as="geometry" />
@@ -250,6 +250,175 @@
         <mxCell id="PuxvLNvJ-SmBApYNemu--67" value="同步数值（同步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=1;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--66" parent="1" source="PuxvLNvJ-SmBApYNemu--47">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--68" value="daily_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="890" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--68">
+          <mxGeometry x="55" y="120" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--100" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--68">
+          <mxGeometry x="45" y="210" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--103" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--68">
+          <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--104" value="当前补剂打卡外还要更新父级任务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--103" parent="PuxvLNvJ-SmBApYNemu--68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--70" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="890" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--71" value="daily_progress" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="890" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="205" y="980" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--76" value="选择补剂任务" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" source="PuxvLNvJ-SmBApYNemu--70" target="PuxvLNvJ-SmBApYNemu--75">
+          <mxGeometry x="0.0406" y="10" relative="1" as="geometry">
+            <mxPoint x="135" y="980" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="150" y="980" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--77" value="&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuxvLNvJ-SmBApYNemu--76">
+          <mxGeometry x="0.0111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--78" value="List&amp;lt;补剂&amp;gt;结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="PuxvLNvJ-SmBApYNemu--75" target="PuxvLNvJ-SmBApYNemu--70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1056" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--82" value="task_streak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="890" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--86" value="progress_streak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="895" y="890" width="100" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--92" value="补剂类任务" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="30" y="840" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--94" value="&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--93" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="990" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--95" value="user_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="890" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PuxvLNvJ-SmBApYNemu--95">
+          <mxGeometry x="45" y="130" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--97" value="找到多个补剂" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--96" parent="1" source="PuxvLNvJ-SmBApYNemu--93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--98" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="PuxvLNvJ-SmBApYNemu--96" parent="1" target="PuxvLNvJ-SmBApYNemu--93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1056.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1180" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="574" y="1220" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--74" value="反查当天所有任务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--73" source="PuxvLNvJ-SmBApYNemu--72">
+          <mxGeometry x="0.0667" y="-4" relative="1" as="geometry">
+            <mxPoint x="579" y="1160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="609" y="1200" />
+              <mxPoint x="609" y="1220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--79" value="同步进度（同步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.9;exitY=0.961;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="214" y="1185.32" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--80" value="查询当天所有任务" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--69" source="PuxvLNvJ-SmBApYNemu--73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="1230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--81" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;rounded=0;" edge="1" parent="1" source="PuxvLNvJ-SmBApYNemu--69" target="PuxvLNvJ-SmBApYNemu--73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="1268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--83" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1320" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--85" value="若完成则延长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="1330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="820" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="940.5" y="1300" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="945.5" y="1330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--89" value="若完成则延长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950.5" y="1310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="980.5" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--90" value="同步进度（可异步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209.5" y="1320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--91" value="同步进度（可异步）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="PuxvLNvJ-SmBApYNemu--87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209.5" y="1300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="590.5" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--101" value="log progress" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="PuxvLNvJ-SmBApYNemu--100" parent="1" source="PuxvLNvJ-SmBApYNemu--70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PuxvLNvJ-SmBApYNemu--102" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="PuxvLNvJ-SmBApYNemu--100" parent="1" target="PuxvLNvJ-SmBApYNemu--70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
