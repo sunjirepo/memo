@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T02:54:40.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="A9UFKYpfVjGXNmo1EyDb" version="20.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-26T06:04:32.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36" etag="DbqI14Kw2YoA-FVG6Gmq" version="20.2.0" type="github">
   <diagram id="ar_wgMS2bZfdr33TicMl" name="第 1 页">
-    <mxGraphModel dx="1031" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-1" value="daily_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-1" value="daily_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="60" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Rv6Bu9yexseLJuJAVIN8-1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Rv6Bu9yexseLJuJAVIN8-1" vertex="1">
           <mxGeometry x="55" y="180" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-9" value="complete daily all task" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.942;exitY=0.29;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Rv6Bu9yexseLJuJAVIN8-1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-9" value="complete daily all task" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.942;exitY=0.29;exitDx=0;exitDy=0;exitPerimeter=0;" parent="Rv6Bu9yexseLJuJAVIN8-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55.00000000000007" y="173.19999999999993" as="sourcePoint" />
             <Array as="points">
@@ -21,19 +21,19 @@
             <mxPoint x="65.58" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Rv6Bu9yexseLJuJAVIN8-1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Rv6Bu9yexseLJuJAVIN8-1" vertex="1">
           <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-2" value="task_streak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-2" value="task_streak" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="60" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Rv6Bu9yexseLJuJAVIN8-2">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Rv6Bu9yexseLJuJAVIN8-2" vertex="1">
           <mxGeometry x="45" y="60" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Rv6Bu9yexseLJuJAVIN8-2">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Rv6Bu9yexseLJuJAVIN8-2" vertex="1">
           <mxGeometry x="49" y="120" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-7" value="时长延长或新增" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Rv6Bu9yexseLJuJAVIN8-6" parent="Rv6Bu9yexseLJuJAVIN8-2">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-7" value="时长延长或新增" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="Rv6Bu9yexseLJuJAVIN8-2" target="Rv6Bu9yexseLJuJAVIN8-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="54" y="100" as="sourcePoint" />
             <Array as="points">
@@ -41,16 +41,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-3" value="progress_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-3" value="progress_task" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="60" width="100" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Rv6Bu9yexseLJuJAVIN8-3">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Rv6Bu9yexseLJuJAVIN8-3" vertex="1">
           <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Rv6Bu9yexseLJuJAVIN8-3">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Rv6Bu9yexseLJuJAVIN8-3" vertex="1">
           <mxGeometry x="50" y="260" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-16" value="新增或合并时长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Rv6Bu9yexseLJuJAVIN8-15" parent="Rv6Bu9yexseLJuJAVIN8-3">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-16" value="新增或合并时长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="Rv6Bu9yexseLJuJAVIN8-3" target="Rv6Bu9yexseLJuJAVIN8-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="240" as="sourcePoint" />
             <Array as="points">
@@ -58,7 +58,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-5" value="log complete or completed" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="Rv6Bu9yexseLJuJAVIN8-4" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-5" value="log complete or completed" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" parent="1" target="Rv6Bu9yexseLJuJAVIN8-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="139.66666666666674" y="130" as="sourcePoint" />
             <Array as="points">
@@ -66,102 +66,102 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-11" value="complete daily tasks" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="Rv6Bu9yexseLJuJAVIN8-10" parent="1" source="Rv6Bu9yexseLJuJAVIN8-8">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-11" value="complete daily tasks" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-8" target="Rv6Bu9yexseLJuJAVIN8-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="300" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-12" value="check badge" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="Rv6Bu9yexseLJuJAVIN8-10" parent="1" target="Rv6Bu9yexseLJuJAVIN8-1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-12" value="check badge" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-10" target="Rv6Bu9yexseLJuJAVIN8-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="555" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-17">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-17" value="完成任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-17" value="完成任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-18" value="流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-18" value="流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="10" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-19" value="逻辑图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-19" value="逻辑图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="430" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-22" target="Rv6Bu9yexseLJuJAVIN8-24">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-22" target="Rv6Bu9yexseLJuJAVIN8-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-22" value="TaskStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-22" value="TaskStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-23" value="&lt;h1&gt;Streak更新规则&lt;/h1&gt;&lt;p&gt;streak 结构：&lt;/p&gt;&lt;p&gt;startDay, endDay, streakNo. user, task(optional)&lt;/p&gt;&lt;p&gt;新增：当前完成任务是用户首次（首天）完成，或者是新的连续次数的第一次。&amp;nbsp;&lt;/p&gt;&lt;p&gt;延长：前一个任务已经有完成（&lt;b&gt;按用户定义的频率吗&lt;/b&gt;？），前一天任务已有完成。&lt;/p&gt;&lt;p&gt;缩短：分为两种情况，在操作 undo 时发生。 1 在一个连续 streak 的头尾。 2 在一个现存 streak 的中间，此种情况略复杂，现存的 streak 会变成两段。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="480" width="320" height="240" as="geometry" />
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-23" value="&lt;h1&gt;Streak更新规则&lt;/h1&gt;&lt;p&gt;streak 结构：&lt;/p&gt;&lt;p&gt;startDay, endDay, streakNo. user, task(optional)&lt;/p&gt;&lt;p&gt;新增：当前完成任务是用户首次（首天）完成，或者是新的连续次数的第一次。&amp;nbsp;&lt;/p&gt;&lt;p&gt;延长：前一个任务已经有完成（&lt;b&gt;按用户定义的频率吗&lt;/b&gt;？），前一天任务已有完成。&lt;/p&gt;&lt;p&gt;缩短：分为两种情况，在操作 undo 时发生。 1 在一个连续 streak 的头尾。 2 在一个现存 streak 的中间，此种情况略复杂，现存的 streak 会变成两段。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="990" width="320" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-24" target="Rv6Bu9yexseLJuJAVIN8-26">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-24" target="Rv6Bu9yexseLJuJAVIN8-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rv6Bu9yexseLJuJAVIN8-27">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rv6Bu9yexseLJuJAVIN8-27" vertex="1" connectable="0">
           <mxGeometry x="0.075" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-24" target="Rv6Bu9yexseLJuJAVIN8-29">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-24" target="Rv6Bu9yexseLJuJAVIN8-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rv6Bu9yexseLJuJAVIN8-30">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-31" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rv6Bu9yexseLJuJAVIN8-30" vertex="1" connectable="0">
           <mxGeometry x="0.0806" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-24" value="今天任务都完成了吗" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-24" value="今天任务都完成了吗" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-26" value="继续完成任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-26" value="继续完成任务" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-29" value="ProgressStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-29" value="ProgressStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-34">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-34" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="1110" as="targetPoint" />
+            <mxPoint x="670" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-34" value="Undo任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="990" width="120" height="60" as="geometry" />
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-34" value="Undo任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-36" target="Rv6Bu9yexseLJuJAVIN8-41">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-36" target="Rv6Bu9yexseLJuJAVIN8-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-36" value="TaskStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1110" width="120" height="60" as="geometry" />
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-36" value="TaskStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-41" target="Rv6Bu9yexseLJuJAVIN8-42">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-41" target="Rv6Bu9yexseLJuJAVIN8-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rv6Bu9yexseLJuJAVIN8-37">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rv6Bu9yexseLJuJAVIN8-37" vertex="1" connectable="0">
           <mxGeometry x="0.075" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rv6Bu9yexseLJuJAVIN8-41" target="Rv6Bu9yexseLJuJAVIN8-43">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Rv6Bu9yexseLJuJAVIN8-41" target="Rv6Bu9yexseLJuJAVIN8-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rv6Bu9yexseLJuJAVIN8-39">
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Rv6Bu9yexseLJuJAVIN8-39" vertex="1" connectable="0">
           <mxGeometry x="0.0806" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-41" value="当天其他任务都完成了吗" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1230" width="80" height="80" as="geometry" />
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-41" value="当天其他任务都完成了吗" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-42" value="继续" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1240" width="120" height="60" as="geometry" />
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-42" value="继续" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rv6Bu9yexseLJuJAVIN8-43" value="ProgressStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="1370" width="120" height="60" as="geometry" />
+        <mxCell id="Rv6Bu9yexseLJuJAVIN8-43" value="ProgressStreak更新" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
