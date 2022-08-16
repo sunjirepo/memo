@@ -38,6 +38,7 @@
     
 13. Side Project 指南，包括点子/实现/推广/变现 [sideproject 指南][8]
 
+14. GitHub 技术社区 Doocs ， [社区主页][9] [一款高度简洁的微信 Markdown 编辑器](https://github.com/doocs/md) 好东西哦
 
 附录：
 
@@ -49,4 +50,5 @@
 [6]: https://github.com/bugushi/memo
 [7]: https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md
 [8]: https://github.com/timqian/sideproject.guide
+[9]: https://github.com/doocs
 
