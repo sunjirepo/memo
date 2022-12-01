@@ -40,6 +40,8 @@
 
 14. GitHub 技术社区 Doocs ， [社区主页][9] [一款高度简洁的微信 Markdown 编辑器](https://github.com/doocs/md) 好东西哦
 
+15. excalidraw.com 手绘风格的矢量图，端到端加密  [Virtual whiteboard for sketching hand-drawn like diagrams.][10]
+
 附录：
 
 [1]: https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md#%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84
@@ -51,4 +53,5 @@
 [7]: https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md
 [8]: https://github.com/timqian/sideproject.guide
 [9]: https://github.com/doocs
+[10]: https://github.com/excalidraw/excalidraw
 
