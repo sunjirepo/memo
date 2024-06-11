@@ -1,0 +1,9 @@
+/* styles.css */
+.vscode-tokens-styles {
+    font-size: 16px !important;
+}
+
+.tree-view .monaco-tl-twistie,
+.tree-view .monaco-icon-label-container {
+    font-size: 16px !important;
+}
